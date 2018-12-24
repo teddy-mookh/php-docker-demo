@@ -4,6 +4,10 @@
     "Name": "teddyondieki/php-docker-demo:development",
     "Update": "true"
   },
+  "Authentication":{
+    "Bucket": "php-docker-demo-s3",
+    "Key": "dockercfg.json"
+  },
   "Ports": [
     {
       "ContainerPort": "80"
